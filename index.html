@@ -1,5 +1,42 @@
-<html>
-<body>
-<A href='YMIT CAMP.html'> hello </A>
-</body>
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <img src="asdfasdf">
+        <img src="https://user-images.githubusercontent.com/38850089/61521386-14381680-aa4b-11e9-8e66-f4a3fc4c8f30.png" usemap="#기본">
+        <map name="기본" id="기본">
+        <area shape="rect" coords="3,2,377,94" href="Jungmin Lee.html">
+        <area shape="rect" coords="382,2,749,90" href="sexy민우.html">
+        <area shape="rect" coords="754,2,1130,91" href="YMITCAMP.html">
+        <script>
+        <div id="image_container">
+            <img src="" width="100" height:auto style="left:0px"/>
+            <img src="" width="100" height:auto style="left:110px"/>
+            <img src="" width="100" height:auto style="left:220px"/>
+            <img src="" width="100" height:auto style="left:330px"/>
+            <img src="" width="100" height:auto style="left:440px"/>
+                
+            </div>
+            
+        function scrolages(){
+            var image_containerDiv=document.getElementById("image_container")
+            var images=image_containerDiv.getElementsByTagName("img");
+            for(var i=0;i<image.length;i++){
+                var left=images[i].style.left.substr(0,images[i].style.left.length-2)
+                if(left<=-86){
+                    left=532;
+                }
+                images[i].style.left=(left-1)+"px";
+                }
+            }
+        }
+        t=setInterval("scrolages()",50);
+            </script>
+    </body>
 </html>
+    
+    
+    edpotter@naver.com
+    ymit1234
